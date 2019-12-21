@@ -5,14 +5,24 @@
 .event{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.window {
+    
 }
 
 .emoji {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    background: white;
+    width: 30%;
+    padding: 50px;
+    -webkit-box-shadow: 3px 10px 43px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 10px 43px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 10px 43px 0px rgba(0,0,0,0.75);
 }
 
 .emoji div {
@@ -30,6 +40,9 @@
     flex-direction: column;
     overflow: auto;
     height: 500px;
+    background: white;
+    width: 30%;
+    padding: 50px;
 }
 
 body {
