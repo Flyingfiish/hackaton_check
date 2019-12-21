@@ -1,0 +1,38 @@
+.emoji div img {
+    width: 100px;
+    height: 100px;
+}
+.event{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.emoji {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.emoji div {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+
+}
+
+.history div img {
+    width: 20px;
+}
+.history {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 500px;
+}
+
+body {
+    background-image: url("back.jpg");
+    font-family: 'Roboto', sans-serif;
+}
