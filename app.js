@@ -1,8 +1,7 @@
 const express = require('express');
 // создаем объект приложения
 const app = express();
-const port = 5000;
-
+const port = process.env.PORT || 80;
 // определяем обработчик для маршрута "/"
 app.get("/", function(request, response){
 
