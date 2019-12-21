@@ -12,6 +12,9 @@ app.get("/event", function(request, response){
 
     response.sendfile("public/event.html");
 });
+
+
+
 app.use(express.static('public'));
 // начинаем прослушивать подключения на 3000 порту
 const server = app.listen(port, (error) => {

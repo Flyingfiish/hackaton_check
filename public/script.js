@@ -32,5 +32,9 @@ function OnClickButton(string){
     elem1.appendChild(div);
 }
 
+function Submit(string) {
+
+}
+
 
 
