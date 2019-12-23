@@ -20,9 +20,9 @@
     background: white;
     width: 30%;
     padding: 50px;
-    -webkit-box-shadow: 3px 10px 43px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 10px 43px 0px rgba(0,0,0,0.75);
-    box-shadow: 3px 10px 43px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 35px 0px rgba(255,255,255,1);
 }
 
 .emoji div {
@@ -43,6 +43,9 @@
     background: white;
     width: 30%;
     padding: 50px;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 35px 0px rgba(255,255,255,1);
+box-shadow: 0px 0px 35px 0px rgba(255,255,255,1);
 }
 
 body {
